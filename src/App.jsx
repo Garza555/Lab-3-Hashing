@@ -10,7 +10,7 @@ function App() {
   const cifrar = () => {
     const resultado = CryptoJS.AES.encrypt(texto, "Rodrigo").toString();
     setTextoCifrado(resultado);
-    setTextoDescifrado(''); // limpiar descifrado anterior
+    setTextoDescifrado(''); 
   }
 
   const descifrar = () => {
